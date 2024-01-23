@@ -23,7 +23,7 @@ body {
 }
 
 .close_icon {
-  color: red;
+  color: #9ac61c;
   margin-left: 30px;
   margin-top: 10px;
   cursor: pointer;
@@ -259,8 +259,11 @@ textarea {
   background-color: transparent;
   color: #9ac61c;
 }
+textarea{
+  resize: none;
+}
 
-input[type="submit"] {
+input[type="button"] {
   width: 100%;
   background-color: #9ac61c;
   color: black;
@@ -274,9 +277,12 @@ input[type="submit"] {
   max-width: 500px;
   margin: 0 auto;
   display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
-input[type="submit"]:hover {
+input[type="button"]:hover {
   background-color: #45a049;
 }
 
@@ -284,10 +290,10 @@ div.input-container {
   background-color: black;
   padding: 20px;
 }
-label{
+label {
   text-transform: uppercase;
 }
-.upload-btn{
+.upload-btn {
   background-color: #9ac61c;
   width: 200px;
   font-size: 18px;
@@ -298,6 +304,29 @@ label{
   font-weight: bold;
 }
 /* End Products  */
+
+.verification-btn{
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  color: #9ac61c;
+  border: 1px solid #9ac61c;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.bann-btn{
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
 
 /* Medium <= 992px */
 
